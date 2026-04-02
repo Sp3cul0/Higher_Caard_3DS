@@ -140,7 +140,6 @@ goToBot("MainMenuBot");
 | Role         | Person      |
 |--------------|-------------|
 | Development  | Sp3culo     |
-| Development  | Le_Sims     |
 
 ---
 
