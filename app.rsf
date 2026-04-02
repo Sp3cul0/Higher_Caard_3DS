@@ -1,0 +1,15 @@
+BasicInfo:
+  Title: "Higher Visit Caard"
+  CompanyCode: "00"
+  ProductCode: "CTR-P-HCRD"
+  ContentType: Application
+  Logo: None
+
+TitleInfo:
+  UniqueId: 0xFF3FF
+  Category: Application
+
+Option:
+  UseOnSD: true
+  FreeProductCode: true
+  MediaFootPadding: false

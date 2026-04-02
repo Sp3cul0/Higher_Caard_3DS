@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "3DS",
+            "includePath": [
+                "${workspaceFolder}/source/**",
+                "/opt/devkitpro/libctru/include",
+                "/opt/devkitpro/devkitARM/arm-none-eabi/include"
+            ],
+            "defines": [
+                "__3DS__",
+                "ARM11"
+            ],
+            "compilerPath": "/opt/devkitpro/devkitARM/bin/arm-none-eabi-g++",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "intelliSenseMode": "gcc-arm",
+            "browse": {
+                "path": [
+                    "/opt/devkitpro/libctru/include",
+                    "/opt/devkitpro/devkitARM/arm-none-eabi/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
