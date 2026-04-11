@@ -10,14 +10,15 @@ TOPDIR ?= $(CURDIR)
 include $(DEVKITARM)/3ds_rules
 
 #---------------------------------------------------------------------------------
-TARGET := Higher_Caard
+TARGET		:=	Higher_Caard
 BUILD		:=	build
+FINAL_OUTDIR	:=	$(CURDIR)/$(BUILD)/3ds
 SOURCES		:=	source
 DATA		:=	data
 INCLUDES	:=	include
 ROMFS		:=	romfs
 APP_TITLE	:=	Higher Visit Caard
-APP_DESCRIPTION	:= A 3DS Visit Caard for the 3DS Homebrew community.
+APP_DESCRIPTION	:=	A 3DS Visit Caard for the 3DS Homebrew community.
 APP_AUTHOR	:=	Sp3culo
 
 #---------------------------------------------------------------------------------
@@ -43,7 +44,7 @@ LIBDIRS	:=	$(PORTLIBS) $(CTRULIB)
 ifneq ($(BUILD),$(notdir $(CURDIR)))
 #---------------------------------------------------------------------------------
 
-export OUTPUT	:=	$(CURDIR)/$(TARGET)
+export OUTPUT	:=	$(FINAL_OUTDIR)/$(TARGET)
 export TOPDIR	:=	$(CURDIR)
 
 export VPATH	:=	$(foreach dir,$(SOURCES),$(CURDIR)/$(dir)) \
@@ -74,7 +75,7 @@ export INCLUDE	:=	$(foreach dir,$(INCLUDES),-I$(CURDIR)/$(dir)) \
 export LIBPATHS	:=	$(foreach dir,$(LIBDIRS),-L$(dir)/lib)
 
 ifeq ($(strip $(NO_SMDH)),)
-	export _3DSXFLAGS += --smdh=$(CURDIR)/$(TARGET).smdh
+	export _3DSXFLAGS += --smdh=$(FINAL_OUTDIR)/$(TARGET).smdh
 endif
 
 ifneq ($(ROMFS),)
@@ -87,6 +88,7 @@ all: $(BUILD)
 
 $(BUILD):
 	@[ -d $@ ] || mkdir -p $@
+	@[ -d $(FINAL_OUTDIR) ] || mkdir -p $(FINAL_OUTDIR)
 	@$(MAKE) --no-print-directory -C $(BUILD) -f $(CURDIR)/Makefile
 
 clean:

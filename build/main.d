@@ -1,4 +1,4 @@
-main.o: /home/speculo/Projects/3DSProject/source/main.cpp \
+main.o: /home/speculo/Projects/3DS_Visit_Caard/source/main.cpp \
  /opt/devkitpro/libctru/include/3ds.h \
  /opt/devkitpro/libctru/include/3ds/types.h \
  /opt/devkitpro/libctru/include/3ds/result.h \
@@ -110,14 +110,13 @@ main.o: /home/speculo/Projects/3DSProject/source/main.cpp \
  /opt/devkitpro/libctru/include/c2d/sprite.h \
  /opt/devkitpro/libctru/include/c2d/text.h \
  /opt/devkitpro/libctru/include/c2d/font.h \
- /home/speculo/Projects/3DSProject/source/scripts/SceneManager.hpp \
- /home/speculo/Projects/3DSProject/source/scripts/./Renderer.hpp \
- /home/speculo/Projects/3DSProject/source/scripts/./AudioManager.hpp \
- /home/speculo/Projects/3DSProject/source/scenes/MainMenuTop.hpp \
- /home/speculo/Projects/3DSProject/source/scenes/../scripts/UIAlign.hpp \
- /home/speculo/Projects/3DSProject/source/scenes/../scripts/Coroutine.hpp \
- /home/speculo/Projects/3DSProject/source/scenes/MainMenuBot.hpp \
- /home/speculo/Projects/3DSProject/source/scenes/Credits.hpp
+ /home/speculo/Projects/3DS_Visit_Caard/source/scripts/SceneManager.hpp \
+ /home/speculo/Projects/3DS_Visit_Caard/source/scripts/./Renderer.hpp \
+ /home/speculo/Projects/3DS_Visit_Caard/source/scripts/./AudioManager.hpp \
+ /home/speculo/Projects/3DS_Visit_Caard/source/scenes/MainMenuTop.hpp \
+ /home/speculo/Projects/3DS_Visit_Caard/source/scenes/../scripts/UIAlign.hpp \
+ /home/speculo/Projects/3DS_Visit_Caard/source/scenes/../scripts/Coroutine.hpp \
+ /home/speculo/Projects/3DS_Visit_Caard/source/scenes/MainMenuBot.hpp
 /opt/devkitpro/libctru/include/3ds.h:
 /opt/devkitpro/libctru/include/3ds/types.h:
 /opt/devkitpro/libctru/include/3ds/result.h:
@@ -229,11 +228,10 @@ main.o: /home/speculo/Projects/3DSProject/source/main.cpp \
 /opt/devkitpro/libctru/include/c2d/sprite.h:
 /opt/devkitpro/libctru/include/c2d/text.h:
 /opt/devkitpro/libctru/include/c2d/font.h:
-/home/speculo/Projects/3DSProject/source/scripts/SceneManager.hpp:
-/home/speculo/Projects/3DSProject/source/scripts/./Renderer.hpp:
-/home/speculo/Projects/3DSProject/source/scripts/./AudioManager.hpp:
-/home/speculo/Projects/3DSProject/source/scenes/MainMenuTop.hpp:
-/home/speculo/Projects/3DSProject/source/scenes/../scripts/UIAlign.hpp:
-/home/speculo/Projects/3DSProject/source/scenes/../scripts/Coroutine.hpp:
-/home/speculo/Projects/3DSProject/source/scenes/MainMenuBot.hpp:
-/home/speculo/Projects/3DSProject/source/scenes/Credits.hpp:
+/home/speculo/Projects/3DS_Visit_Caard/source/scripts/SceneManager.hpp:
+/home/speculo/Projects/3DS_Visit_Caard/source/scripts/./Renderer.hpp:
+/home/speculo/Projects/3DS_Visit_Caard/source/scripts/./AudioManager.hpp:
+/home/speculo/Projects/3DS_Visit_Caard/source/scenes/MainMenuTop.hpp:
+/home/speculo/Projects/3DS_Visit_Caard/source/scenes/../scripts/UIAlign.hpp:
+/home/speculo/Projects/3DS_Visit_Caard/source/scenes/../scripts/Coroutine.hpp:
+/home/speculo/Projects/3DS_Visit_Caard/source/scenes/MainMenuBot.hpp:
